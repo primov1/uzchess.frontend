@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Radio, Users, MessageSquare, Eye } from 'lucide-react';
 
 export const Live = () => {

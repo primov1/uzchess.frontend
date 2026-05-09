@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { BookOpen, LogOut, User, ShoppingCart, Menu, X } from 'lucide-react';
+import {useState} from "react";
 
 export const Navbar = () => {
   const navigate = useNavigate();

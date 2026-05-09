@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { User, Mail, Phone, Camera, Shield, Bell, LogOut, ChevronRight, Edit3 } from 'lucide-react';
 import { useNavigate, Link } from 'react-router-dom';
 

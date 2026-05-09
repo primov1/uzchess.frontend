@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from 'react';
+
 import { apiClient } from '../api/apiClient';
-import { BookOpen, Star, Clock } from 'lucide-react';
+import { Star, Clock } from 'lucide-react';
+import {useEffect, useState} from "react";
 
 interface Course {
   id: number;

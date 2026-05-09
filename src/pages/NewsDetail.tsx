@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { apiClient } from '../api/apiClient';
 import { Calendar, Eye, ChevronLeft, Share2, Clock } from 'lucide-react';
